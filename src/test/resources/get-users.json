@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "name1",
+    "username": "username1",
+    "email": "email1",
+    "phone": "phone1",
+    "website": "website1"
+  },
+  {
+    "id": 2,
+    "name": "name2",
+    "username": "username2",
+    "email": "email2",
+    "phone": "phone2",
+    "website": "website2"
+  }
+]
