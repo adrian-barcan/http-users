@@ -1,8 +1,5 @@
 package ro.abarcan.httpusers.user.model;
 
-import lombok.Builder;
-
-@Builder
 public record User(
         int id,
         String name,

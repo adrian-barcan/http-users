@@ -11,7 +11,7 @@ import ro.abarcan.httpusers.user.client.UserHttpClient;
 public class ClientConfig {
 
     @Bean
-    UserHttpClient userHttpClient(RestClient client) {
+    public UserHttpClient userHttpClient(RestClient client) {
 
         var httpServiceProxyFactory = HttpServiceProxyFactory.builderFor(RestClientAdapter.create(client))
                 .build();
